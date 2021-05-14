@@ -37,8 +37,8 @@ h5 {
 .separador {
     width: 60px;
     height: 3px;
-    background: black;
-} 
+    background: white;
+}
 
 #cabecalho {
     display: flex;
@@ -70,9 +70,9 @@ h5 {
 
 #introducao {
     height: 160px;
-    background: url("/imagens/esporte-2.jpg") no-repeat;
-    background-size: 110%;
-    background-position: center -700px;
+    background: url("/images/retro-3.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 -400px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -82,112 +82,105 @@ h5 {
 
 #introducao .separador {
     margin: 15px 0;
-    background: white;
 }
 
-#sobre {
-    padding: 50px 230px 0;
-}
-
-#sobre .historia-valores {
-    display: flex;
-    justify-content: left;
-    align-items: flex-start;
-    gap: 80px;
-    margin-bottom: 30px;
-}
-
-#sobre .separador {
-    margin: 5px 0 15px;
-}
-
-#sobre h4 {
-    line-height: 25px;
-    font-weight: 400;
-}
-
-#sobre .valores h4 {
-    line-height: 35px;
-}
-
-#sobre .imagem {
-    background: url("/imagens/passeio-3.jpg") no-repeat;
-    background-size: 125%;
-    background-position: center -350px;
-    height: 320px;
-}
-
-#qualidade {
+#quote-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+#quote-1 h5 {
+    margin-bottom: 20px;
+}
+
+#portfolio {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     padding: 50px 0;
 }
 
-#qualidade .botao {
-    margin-top: 10px;
+#fotos .foto-container{
+    width: 940px;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
 }
 
-#arvore-qualidades {
-    position: relative;
+#fotos .foto-1 {
+    width: 460px;
+    height: 280px;
+    background: url("/images/retro-2.jpg") no-repeat;
+    background-size: cover;
+}
+
+#fotos .foto-2 {
+    width: 460px;
+    height: 280px;
+    background: url("/images/passeio-4.jpg") no-repeat;
+    background-size: 250%;
+    background-position: -150px -380px;
+}
+
+#fotos .foto-3 {
+    height: 280px;
+    background: url("/images/passeio-2.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 -300px;
+}
+
+#portfolio .carrossel-portfolio {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    gap: 200px;
+    gap: 20px;
+    margin-top: 30px;
 }
 
-#arvore-qualidades .logo {
-    position: absolute;
-    top: -61.5px;
-    left: auto;
+#portfolio .carrossel {
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
 }
 
-#arvore-qualidades .linha-inferior {
-    position: absolute;
-    top: 61.5px;
-    left: auto;
-    width: 2px;
-    height: 38.5px;
-    background: black;
+#portfolio .carrossel:first-child {
+    background: #FEC63E;
 }
 
-#arvore-qualidades .linha {
-    width: 220px;
-    height: 100px;
-    border-width: 2px 0 0 2px;
-    border-style: solid;
-}
-
-#arvore-qualidades .linha:last-child {
-    width: 220px;
-    height: 100px;
-    border-width: 2px 2px 0 0;
-    border-style: solid;
-}
-
-#descricao-qualidades {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-    margin: 20px 0 30px;
-}
-
-#descricao-qualidades .separador {
-    margin: 5px 0 10px;
-}
-
-#descricao-qualidades .qualidade {
+#quote-2 {
+    height: 250px;
+    background: url("/images/esporte-3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center -400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: -2;
 }
 
-#descricao-qualidades .qualidade h5 {
-    text-align: center;
+#quote-2 .filtro { 
+    width: 100%;
+    height: 100%;  
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: -1;
+}
+
+#quote-2 div.separador {
+    margin: 15px 0;
+    background: white;
 }
 
 #footer {

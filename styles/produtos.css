@@ -85,7 +85,7 @@ h5 {
 
 #introducao {
     height: 160px;
-    background: url("/imagens/esporte-1.jpg") no-repeat;
+    background: url("/images/esporte-1.jpg") no-repeat;
     background-size: cover;
     background-position: 0 -450px;
     color: white;
@@ -126,19 +126,19 @@ h5 {
 }
 
 #produto .item-produto:nth-child(1) .titulo{
-    background: url("/imagens/passeio-1.jpg") no-repeat;
+    background: url("/images/passeio-1.jpg") no-repeat;
     background-size: cover;
     background-position: 0 -100px;
 }
 
 #produto .item-produto:nth-child(2) .titulo{
-    background: url("/imagens/esporte-4.jpg") no-repeat;
+    background: url("/images/esporte-4.jpg") no-repeat;
     background-size: cover;
     background-position: 0 -75px;
 }
 
 #produto .item-produto:nth-child(3) .titulo{
-    background: url("/imagens/retro-2.jpg") no-repeat;
+    background: url("/images/retro-2.jpg") no-repeat;
     background-size: cover;
     background-position: 0 -150px;
 }
@@ -162,18 +162,18 @@ h5 {
 }
 
 #produto .item-produto:nth-child(1) .foto{
-    background: url("/imagens/passeio-4.jpg") no-repeat;
+    background: url("/images/passeio-4.jpg") no-repeat;
     background-size: 250%;
     background-position: -150px -380px;
 }
 
 #produto .item-produto:nth-child(2) .foto{
-    background: url("/imagens/esporte-2.jpg") no-repeat;
+    background: url("/images/esporte-2.jpg") no-repeat;
     background-size: cover;
 }
 
 #produto .item-produto:nth-child(3) .foto{
-    background: url("/imagens/retro-3.jpg") no-repeat;
+    background: url("/images/retro-3.jpg") no-repeat;
     background-size: 150%;
     background-position: 0px -180px;
 }
@@ -292,7 +292,7 @@ h5 {
 
 #quote {
     height: 250px;
-    background: url("/imagens/esporte-3.jpg") no-repeat;
+    background: url("/images/esporte-3.jpg") no-repeat;
     background-size: cover;
     background-position: center -400px;
     display: flex;

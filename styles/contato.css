@@ -86,7 +86,7 @@ h5 {
 
 #introducao {
     height: 160px;
-    background: url("/imagens/retro-1.jpg") no-repeat;
+    background: url("/images/retro-1.jpg") no-repeat;
     background-size: 100%;
     background-position: 0px -580px;
     color: white;
@@ -160,7 +160,7 @@ h5 {
 #orcamento .mapa {
     width: 100%;
     height: 280px;
-    background: url("/imagens/mapa.png") no-repeat;
+    background: url("/images/mapa.png") no-repeat;
     background-size: cover;
     background-position: 0 -100px;
     margin-top: 50px;
