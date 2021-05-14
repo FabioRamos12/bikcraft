@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    max-width: 1400px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.separador {
+    width: 60px;
+    height: 3px;
+    background: black;
+} 
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background: #FEC63E;
+    padding: 9px 230px;
+}
+
+#cabecalho ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+}
+
+#cabecalho ul li {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+#cabecalho ul li a:hover {
+    color: #484B4D;
+}
+
+#cabecalho a {
+    text-decoration: none;
+    color: black;
+}
+
+#introducao {
+    height: 160px;
+    background: url("/imagens/esporte-2.jpg") no-repeat;
+    background-size: 110%;
+    background-position: center -700px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introducao .separador {
+    margin: 15px 0;
+    background: white;
+}
+
+#sobre {
+    padding: 50px 230px 0;
+}
+
+#sobre .historia-valores {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+#sobre .separador {
+    margin: 5px 0 15px;
+}
+
+#sobre h4 {
+    line-height: 25px;
+    font-weight: 400;
+}
+
+#sobre .valores h4 {
+    line-height: 35px;
+}
+
+#sobre .imagem {
+    background: url("/imagens/passeio-3.jpg") no-repeat;
+    background-size: 125%;
+    background-position: center -350px;
+    height: 320px;
+}
+
+#qualidade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#qualidade .botao {
+    margin-top: 10px;
+}
+
+#arvore-qualidades {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 200px;
+}
+
+#arvore-qualidades .logo {
+    position: absolute;
+    top: -61.5px;
+    left: auto;
+}
+
+#arvore-qualidades .linha-inferior {
+    position: absolute;
+    top: 61.5px;
+    left: auto;
+    width: 2px;
+    height: 38.5px;
+    background: black;
+}
+
+#arvore-qualidades .linha {
+    width: 220px;
+    height: 100px;
+    border-width: 2px 0 0 2px;
+    border-style: solid;
+}
+
+#arvore-qualidades .linha:last-child {
+    width: 220px;
+    height: 100px;
+    border-width: 2px 2px 0 0;
+    border-style: solid;
+}
+
+#descricao-qualidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 20px 0 30px;
+}
+
+#descricao-qualidades .separador {
+    margin: 5px 0 10px;
+}
+
+#descricao-qualidades .qualidade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#descricao-qualidades .qualidade h5 {
+    text-align: center;
+}
+
+#footer {
+    background: black;
+    color: #FEC63E;
+}
+
+#footer > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 230px;
+}
+
+#footer .separador {
+    background: #FEC63E;
+    margin: 5px 0 15px;
+}
+
+#footer h5 {
+    color: white;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#links .social {
+    border: 2px solid #FEC63E;
+    padding: 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    background: #FEC63E;
+}
+
+#copyright h5{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

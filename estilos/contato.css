@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    max-width: 1400px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.separador {
+    width: 60px;
+    height: 3px;
+    background: white;
+}
+
+.botao {
+    text-decoration: none;
+    color: #FEC63E;
+    padding: 12px 21px;
+    border: 3px solid #FEC63E;
+    font-weight: 600;
+}
+
+.botao:hover {
+    background: #FEC63E;
+    color: white;
+    border: 3px solid #FEC63E;
+    transition: 0.4s;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FEC63E;
+    padding: 9px 230px;
+}
+
+#cabecalho ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+}
+
+#cabecalho ul li {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+#cabecalho ul li a:hover {
+    color: #484B4D;
+}
+
+#cabecalho a {
+    text-decoration: none;
+    color: black;
+}
+
+#introducao {
+    height: 160px;
+    background: url("/imagens/retro-1.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 0px -580px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#introducao .separador {
+    margin: 15px 0;
+    background: white;
+}
+
+#orcamento {
+    padding: 50px 230px;
+}
+
+#orcamento .separador {
+    margin: 5px auto 20px;
+    background: #FEC63E;
+}
+
+#orcamento .enviar-infos {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 100px;
+    color: black;
+}
+
+#orcamento .enviar-infos h4 {
+    margin-bottom: 5px;
+}
+
+#orcamento .fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+#orcamento .field {
+    border: 2px solid #FEC63E;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 24px;
+}
+
+#orcamento .mensagem {
+    height: 120px;
+    margin-bottom: 30px;
+    resize: none;
+}
+
+#orcamento .info h4 {
+    color: #FEC63E;
+    margin-bottom: 20px;
+}
+
+#orcamento .info h5 {
+    line-height: 25px;
+}
+
+#orcamento .dados {
+    margin-bottom: 50px;
+}
+
+#orcamento .mapa {
+    width: 100%;
+    height: 280px;
+    background: url("/imagens/mapa.png") no-repeat;
+    background-size: cover;
+    background-position: 0 -100px;
+    margin-top: 50px;
+}
+
+#footer {
+    background: black;
+    color: #FEC63E;
+}
+
+#footer > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 230px;
+}
+
+#footer .separador {
+    background: #FEC63E;
+    margin: 5px 0 15px;
+}
+
+#footer h5 {
+    color: white;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#links .social {
+    border: 2px solid #FEC63E;
+    padding: 7.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    background: #FEC63E;
+}
+
+#copyright h5{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
